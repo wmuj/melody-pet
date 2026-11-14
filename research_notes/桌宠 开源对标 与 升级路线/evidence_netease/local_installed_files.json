@@ -1,0 +1,34 @@
+[
+  {
+    "path": "D:\\CloudMusic\\cloudmusic.exe",
+    "length": 2634744,
+    "modified": "2026-11-03T10:50:44.0000000+08:00",
+    "file_version": "3.1.43.205627",
+    "product_name": "NetEase Cloud Music",
+    "company": "NetEase"
+  },
+  {
+    "path": "D:\\CloudMusic\\cloudmusic.dll",
+    "length": 37749240,
+    "modified": "2026-11-03T10:50:38.0000000+08:00",
+    "file_version": null,
+    "product_name": null,
+    "company": null
+  },
+  {
+    "path": "D:\\CloudMusic\\libcef.dll",
+    "length": 155353600,
+    "modified": "2026-11-03T10:44:04.0000000+08:00",
+    "file_version": "91.2.3+g3268653+chromium-91.0.4472.169",
+    "product_name": "Chromium Embedded Framework (CEF) Dynamic Link Library",
+    "company": ""
+  },
+  {
+    "path": "D:\\CloudMusic\\package\\orpheus.ntpk",
+    "length": 38344645,
+    "modified": "2026-11-03T10:49:52.0000000+08:00",
+    "file_version": null,
+    "product_name": null,
+    "company": null
+  }
+]

@@ -1,0 +1,189 @@
+:root {
+  font-family: 'Segoe UI Variable', 'Microsoft YaHei UI', 'Segoe UI', sans-serif;
+  color: #3b2a22;
+  font-synthesis: none;
+  --ink: #3b2a22;
+  --muted: #8c7365;
+  --blue: #e5724b;
+  --blue-soft: #fff3eb;
+  --line: #f2e4d8;
+}
+* { box-sizing: border-box; -webkit-user-drag: none; }
+html, body, #root { margin: 0; width: 100%; height: 100%; }
+body { user-select: none; }
+button, input, select, textarea { font: inherit; }
+button { -webkit-app-region: no-drag; cursor: pointer; }
+button, input, select, textarea { -webkit-tap-highlight-color: transparent; }
+button { transition: background 160ms, color 160ms, box-shadow 160ms, transform 160ms, border-color 160ms; }
+button:active:not(:disabled) { transform: translateY(1px); }
+button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, summary:focus-visible { outline: 3px solid #f09d77; outline-offset: 3px; }
+button:disabled { cursor: default; opacity: .42; }
+input, select, textarea { user-select: text; border: 1px solid #ecdccf; background: #fffdf9; color: var(--ink); border-radius: 11px; padding: 10px 12px; min-width: 0; width: 100%; font-size: 13px; }
+input::placeholder, textarea::placeholder { color: #b0998b; }
+textarea { resize: vertical; line-height: 1.7; }
+input[type='range'] { accent-color: var(--blue); padding: 0; height: 22px; cursor: pointer; }
+button svg { flex-shrink: 0; stroke-width: 1.8; }
+body.pet-mode { background: transparent !important; overflow: hidden; }
+.pet-stage { position: relative; overflow: hidden; cursor: grab; touch-action: none; }
+.pet-stage.is-dragging { cursor: grabbing; }
+.pet-renderer { position: absolute; inset: 0; pointer-events: none; }
+.pet-canvas { display: block; pointer-events: none; position: relative; z-index: 0; }
+
+/* 桌宠 · 奶油治愈手账风：对话气泡 */
+.pet-bubble {
+  position: absolute; top: 8px; left: 50%; transform: translateX(-50%); z-index: 4;
+  width: max-content; max-width: min(232px, calc(100% - 28px)); padding: 8px 14px 10px;
+  border-radius: 18px; background: linear-gradient(180deg, #fffefb 0%, #fff5ea 100%);
+  border: 1.5px solid #f3d1b8;
+  box-shadow: 0 8px 20px rgba(140, 78, 42, .16), 0 1px 2px rgba(140, 78, 42, .08);
+  color: #422c22; font-size: 12px; font-weight: 550; line-height: 1.58; text-align: center;
+  pointer-events: none; animation: bubble-pop 260ms cubic-bezier(.3, 1.5, .5, 1) both;
+}
+.pet-bubble::after {
+  content: ''; position: absolute; width: 11px; height: 11px; left: calc(50% - 5.5px); bottom: -6.5px;
+  background: #fff5ea; border-right: 1.5px solid #f3d1b8; border-bottom: 1.5px solid #f3d1b8;
+  transform: rotate(45deg); border-radius: 0 0 4px 0;
+}
+.bubble-speaker {
+  display: flex; align-items: center; justify-content: center; gap: 5px; width: fit-content;
+  margin: 0 auto 4px; padding: 1.5px 9px; border-radius: 999px;
+  background: linear-gradient(135deg, #f2845c, #eb6578); color: #fff;
+  font-size: 10px; font-weight: 650; letter-spacing: .3px;
+}
+.bubble-dot { width: 5px; height: 5px; border-radius: 50%; background: #fff; box-shadow: 0 0 0 2px rgba(255, 255, 255, .38); }
+.bubble-copy { animation: bubble-appear 220ms ease both; overflow-wrap: anywhere; }
+.pet-bubble small { font-size: 10.5px; color: rgba(255, 255, 255, .86); display: block; margin-top: 2px; font-weight: 400; }
+.pet-bubble.is-lyric {
+  max-width: calc(100% - 28px); padding: 6px 14px 7px; border-radius: 15px; border: 1px solid rgba(255, 255, 255, .35);
+  background: linear-gradient(135deg, rgba(238, 118, 78, .94), rgba(232, 95, 126, .94));
+  color: #fff; font-weight: 600; text-shadow: 0 1px 2px rgba(110, 36, 20, .25);
+  box-shadow: 0 6px 18px rgba(170, 72, 48, .26);
+}
+.pet-bubble.is-lyric .bubble-copy::before { content: '♪ '; opacity: .88; }
+.pet-bubble.is-lyric::after { display: none; }
+@keyframes bubble-appear { from { opacity: 0; translate: 0 4px; } to { opacity: 1; translate: 0 0; } }
+@keyframes bubble-pop { from { opacity: 0; scale: .86; } to { opacity: 1; scale: 1; } }
+
+.pet-affection {
+  position: absolute; top: 116px; right: 37px; display: flex; align-items: center; gap: 4px;
+  background: #fff7f5f0; color: #d8647f; padding: 5px 8px; border-radius: 12px; font-size: 10px;
+  box-shadow: 0 2px 8px rgba(160, 90, 70, .12); pointer-events: none;
+}
+
+.pet-controls {
+  position: absolute; bottom: 8px; left: 50%; width: min(236px, calc(100% - 24px)); z-index: 5;
+  transform: translate(-50%, 4px); opacity: 0; visibility: hidden; pointer-events: none;
+  transition: opacity 150ms, transform 150ms, visibility 150ms;
+}
+.pet-controls.is-visible { opacity: 1; visibility: visible; pointer-events: auto; transform: translate(-50%, 0); }
+
+/* 桌面快捷养成胶囊与迷你零食抽屉 */
+.desktop-care-wrap { position: relative; display: flex; flex-direction: column; align-items: center; margin-bottom: 5px; }
+.desktop-care-pill { display: flex; justify-content: center; }
+.care-pill-toggle {
+  display: inline-flex; align-items: center; gap: 5px; padding: 3px 10px 3px 8px;
+  border-radius: 999px; border: 1.5px solid #f3d2b8;
+  background: linear-gradient(180deg, #fffdf9 0%, #fff3e6 100%);
+  color: #5a3b2e; font-size: 11px; font-weight: 650;
+  box-shadow: 0 4px 12px rgba(140, 78, 42, .15);
+}
+.care-pill-toggle:hover, .care-pill-toggle.is-open {
+  border-color: #ec8c62; background: #fff8f0; transform: translateY(-1px);
+}
+.care-pill-toggle em {
+  font-style: normal; font-size: 10.5px; color: #c96235; background: #ffead6;
+  padding: 1px 6px; border-radius: 999px; font-weight: 700;
+}
+.desktop-care-popover {
+  position: absolute; bottom: calc(100% + 6px); left: 50%; transform: translateX(-50%);
+  width: min(234px, 94vw); padding: 8px 9px; border-radius: 16px;
+  background: rgba(255, 252, 247, .98); border: 1.5px solid #f2ceb2;
+  box-shadow: 0 10px 26px rgba(120, 64, 32, .22);
+  animation: bubble-pop 200ms cubic-bezier(.3, 1.4, .5, 1) both;
+}
+.desktop-care-popover-head {
+  display: flex; align-items: center; justify-content: space-between; gap: 4px;
+  font-size: 10.5px; font-weight: 650; color: #6e4e3e; padding: 0 2px 6px;
+  border-bottom: 1px dashed #f0dccb;
+}
+.desktop-snack-row {
+  display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 3px; margin: 6px 0;
+}
+.desktop-snack-btn {
+  display: flex; flex-direction: column; align-items: center; gap: 1px; padding: 4px 2px;
+  border: 1px solid #f3e2d3; border-radius: 9px; background: #fffaf3; color: #543b2f;
+}
+.desktop-snack-btn span { font-size: 14px; line-height: 1.1; }
+.desktop-snack-btn small { font-size: 9px; color: #8c7060; white-space: nowrap; }
+.desktop-snack-btn:hover, .desktop-snack-btn.is-selected {
+  border-color: #eb7c54; background: #fff0e3; transform: translateY(-1px);
+}
+.desktop-toy-row {
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 3px; margin: 0 0 6px;
+}
+.desktop-toy-btn {
+  display: flex; flex-direction: column; align-items: center; gap: 1px; padding: 3px 2px;
+  border: 1px solid #e9def8; border-radius: 8px; background: #faf7ff; color: #543b2f;
+}
+.desktop-toy-btn span { font-size: 13px; line-height: 1.1; }
+.desktop-toy-btn small { font-size: 9px; color: #7e6694; white-space: nowrap; }
+.desktop-toy-btn:hover { border-color: #b48cf2; background: #f2ebff; transform: translateY(-1px); }
+.desktop-quick-switches { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; }
+.desktop-quick-switches button {
+  border: 1px solid #f0d6c2; background: #fff6ec; color: #684535;
+  border-radius: 9px; padding: 4px 6px; font-size: 10.5px; font-weight: 600; white-space: nowrap;
+}
+.desktop-quick-switches button:hover { background: #ffead6; border-color: #e88358; color: #3b241a; }
+
+/* 桌宠 · 奶油手账风：悬停工具栏与迷你播放条 */
+.pet-quick-actions {
+  display: flex; align-items: center; justify-content: center; gap: 4px; width: fit-content;
+  margin: 0 auto; padding: 4px 6px; background: rgba(255, 252, 247, .97);
+  border: 1.5px solid #f2d3bc; border-radius: 999px;
+  box-shadow: 0 8px 22px rgba(135, 76, 40, .18), 0 1px 2px rgba(135, 76, 40, .08);
+}
+.pet-quick-actions button {
+  border: 0; background: #fff6ed; color: #c8643b; display: grid; place-items: center;
+  width: 29px; height: 29px; border-radius: 50%;
+}
+.pet-quick-actions button:nth-child(1) { color: #f07b3f; background: #fff2e6; }
+.pet-quick-actions button:nth-child(2) { color: #e8637a; background: #fff0f3; }
+.pet-quick-actions button:nth-child(3) { color: #2ea87e; background: #ebfaf4; }
+.pet-quick-actions button:nth-child(4) { color: #8c67dc; background: #f3effe; }
+.pet-quick-actions button:nth-child(5) { color: #7a5c4d; background: #f7efe8; }
+.pet-quick-actions button svg { width: 15.5px; height: 15.5px; stroke-width: 2; }
+.pet-quick-actions button:hover { background: currentColor; transform: translateY(-1px); }
+.pet-quick-actions button:hover svg { color: #fff; }
+
+.pet-music-strip {
+  margin-top: 5px; padding: 4px 5px; display: flex; align-items: center; gap: 6px;
+  background: rgba(255, 252, 247, .97); border: 1.5px solid #f2d3bc; border-radius: 999px;
+  box-shadow: 0 6px 18px rgba(135, 76, 40, .15);
+}
+.pet-song { color: #422c22; display: flex; align-items: center; gap: 6px; min-width: 0; flex: 1; font-size: 11px; font-weight: 600; }
+.pet-song svg {
+  flex: 0 0 auto; width: 22px; height: 22px; padding: 5px; border-radius: 50%;
+  color: #fff; background: linear-gradient(135deg, #f2845c, #eb6578);
+}
+.pet-stage[data-action='playing'] .pet-song svg { animation: song-pulse 1.6s ease-in-out infinite; }
+@keyframes song-pulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(238, 118, 84, .45); } 50% { box-shadow: 0 0 0 5px rgba(238, 118, 84, 0); } }
+.pet-song span { white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+.pet-playback { display: flex; align-items: center; gap: 2px; }
+.pet-playback button {
+  border: 0; background: transparent; color: #b85d38; width: 24px; height: 24px;
+  padding: 0; border-radius: 50%; display: grid; place-items: center;
+}
+.pet-playback button:nth-child(2) {
+  color: #fff; background: linear-gradient(135deg, #f2845c, #eb6578);
+  box-shadow: 0 3px 8px rgba(232, 108, 82, .35);
+}
+.pet-playback button:hover:not(:disabled) { background: #ffefe2; }
+.pet-playback button:nth-child(2):hover:not(:disabled) { background: linear-gradient(135deg, #e57147, #df5368); }
+.sprite-load-error {
+  position: absolute; top: 45%; left: 10%; width: 80%; border-radius: 12px;
+  padding: 12px; background: #fff6f8; color: #935b71; font-size: 12px; line-height: 1.7;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0ms !important; transition-duration: 0ms !important; }
+}

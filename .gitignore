@@ -1,0 +1,10 @@
+node_modules/
+dist/
+dist-electron/
+native/bin/
+artifacts/
+backups/
+release/
+NVIDIA Corporation/
+*.log
+.qa-profile*/

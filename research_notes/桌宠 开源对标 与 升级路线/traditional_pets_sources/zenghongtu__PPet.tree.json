@@ -1,0 +1,836 @@
+{
+  "sha": "2185c3f90600e3f809d55dbeedc7b82a341d06ca",
+  "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/2185c3f90600e3f809d55dbeedc7b82a341d06ca",
+  "tree": [
+    {
+      "path": ".editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3331d7049676ab7b4841009ffced342fa7f29fcf",
+      "size": 244,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/3331d7049676ab7b4841009ffced342fa7f29fcf"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "841128a456d8e7493ecce7d69f327d50a376382e",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/841128a456d8e7493ecce7d69f327d50a376382e"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "91ba1e98c2eda994e8865ee7adffa5dec69ced8e",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/91ba1e98c2eda994e8865ee7adffa5dec69ced8e"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/01_bug_report.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8749d20902411531cfb44434a9ea875d41eeec3",
+      "size": 226,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/c8749d20902411531cfb44434a9ea875d41eeec3"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/02_feature_request.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fc4b07b0a4aaf26feb0d9b452c244f0ed40e136",
+      "size": 78,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/7fc4b07b0a4aaf26feb0d9b452c244f0ed40e136"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/03_development_problem.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92ea72434f8cd1f57bbfa8fa62901624ef769cc9",
+      "size": 99,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/92ea72434f8cd1f57bbfa8fa62901624ef769cc9"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d4cff6796f613ea86b118865f1d1da956b2cecec",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/d4cff6796f613ea86b118865f1d1da956b2cecec"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe0787088c6cb02a779ddba9b3ae59e8f2ce6cad",
+      "size": 1014,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/fe0787088c6cb02a779ddba9b3ae59e8f2ce6cad"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "997373774f0b25c949bc56f02e081a5ca0b41d3e",
+      "size": 1207,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/997373774f0b25c949bc56f02e081a5ca0b41d3e"
+    },
+    {
+      "path": ".prettierrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b528b0e64ff09d81e820afc8e01744bd79d3e26",
+      "size": 129,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/9b528b0e64ff09d81e820afc8e01744bd79d3e26"
+    },
+    {
+      "path": "LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06a47bce96ff5229ebd7dcfcda18d3a13834760e",
+      "size": 1107,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/06a47bce96ff5229ebd7dcfcda18d3a13834760e"
+    },
+    {
+      "path": "README.md",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "32084409d60251bffeaabb1d5c296f69fff5dc24",
+      "size": 1756,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/32084409d60251bffeaabb1d5c296f69fff5dc24"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "941f75e178bb43f890715e7753476d4a759d6821",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/941f75e178bb43f890715e7753476d4a759d6821"
+    },
+    {
+      "path": "assets/preview1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ffb1298eece27e2f8bfe798028d633c2f0f0876",
+      "size": 246540,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/7ffb1298eece27e2f8bfe798028d633c2f0f0876"
+    },
+    {
+      "path": "assets/preview2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e376e9b4fa727809ae86602785413141afa3928",
+      "size": 668891,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/3e376e9b4fa727809ae86602785413141afa3928"
+    },
+    {
+      "path": "assets/preview3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad080abcad06ce0f39a9cfe1ec10ea3ea1bc97a4",
+      "size": 48198,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/ad080abcad06ce0f39a9cfe1ec10ea3ea1bc97a4"
+    },
+    {
+      "path": "assets/record1.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92a6ed4bf99e7718ebbf44c3b20c76679d13e834",
+      "size": 2909984,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/92a6ed4bf99e7718ebbf44c3b20c76679d13e834"
+    },
+    {
+      "path": "assets/record2.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4918855063e32358e6d4a9c5fdde2121ceaf1bf",
+      "size": 2201520,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/e4918855063e32358e6d4a9c5fdde2121ceaf1bf"
+    },
+    {
+      "path": "assets/ubuntu.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cc8e08d5e828ff916c16efe5da81e9ea579235d",
+      "size": 60888,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/1cc8e08d5e828ff916c16efe5da81e9ea579235d"
+    },
+    {
+      "path": "assets/win10.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50c11286e5dca18cfd8991eeb78eee39e48d278c",
+      "size": 59740,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/50c11286e5dca18cfd8991eeb78eee39e48d278c"
+    },
+    {
+      "path": "configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a71bfe035d7aad7e03c1efe94a21654bf7deddfc",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/a71bfe035d7aad7e03c1efe94a21654bf7deddfc"
+    },
+    {
+      "path": "configs/vite.main.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f64e5d76505c8843fb4f097e9aa52f63cea3f40",
+      "size": 615,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/3f64e5d76505c8843fb4f097e9aa52f63cea3f40"
+    },
+    {
+      "path": "configs/vite.preload.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d54fb853fcecd85139468c7f40b9d34fa704f10e",
+      "size": 621,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/d54fb853fcecd85139468c7f40b9d34fa704f10e"
+    },
+    {
+      "path": "configs/vite.renderer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4eb09cc720142d668809cad8133d21b2cb3c1bc",
+      "size": 903,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/c4eb09cc720142d668809cad8133d21b2cb3c1bc"
+    },
+    {
+      "path": "electron-builder.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f1834b9a4c44634da304852221f1916dca8daa8",
+      "size": 1611,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/9f1834b9a4c44634da304852221f1916dca8daa8"
+    },
+    {
+      "path": "package.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "71081657a4436983cb907902cfabeadd98530ab2",
+      "size": 1981,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/71081657a4436983cb907902cfabeadd98530ab2"
+    },
+    {
+      "path": "paths.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06b9ec7618ad35ac2fcc4f098268de0760900b9a",
+      "size": 153,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/06b9ec7618ad35ac2fcc4f098268de0760900b9a"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29fd9e79ee86eaea7b577b3b4c869682cf3dbe7c",
+      "size": 247373,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/29fd9e79ee86eaea7b577b3b4c869682cf3dbe7c"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1b42fec237a98137d2228ec6779f3df1187fcdb9",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/1b42fec237a98137d2228ec6779f3df1187fcdb9"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c429e7e3f6eb40d5b21451edd72bcf97ae3ddd5",
+      "size": 608,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/7c429e7e3f6eb40d5b21451edd72bcf97ae3ddd5"
+    },
+    {
+      "path": "scripts/watch.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa941faf4e03564529b84cb16f69f390a5a0e80c",
+      "size": 1909,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/fa941faf4e03564529b84cb16f69f390a5a0e80c"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fc53cb3fe24c7598dc6e66e655bb7f53aa24fefd",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/fc53cb3fe24c7598dc6e66e655bb7f53aa24fefd"
+    },
+    {
+      "path": "src/common",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e34b13f6b41a547686dc949a3babddf515277349",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/e34b13f6b41a547686dc949a3babddf515277349"
+    },
+    {
+      "path": "src/common/config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59ac2c11030f08d243c14ad8a61c102bf2a1febf",
+      "size": 394,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/59ac2c11030f08d243c14ad8a61c102bf2a1febf"
+    },
+    {
+      "path": "src/common/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5580ee1a82af4b7cf58ab2e6cd2fc43ee037d6a1",
+      "size": 73,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/5580ee1a82af4b7cf58ab2e6cd2fc43ee037d6a1"
+    },
+    {
+      "path": "src/common/paths.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdd4f254118154cfcc16a1654298102f04ace731",
+      "size": 720,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/cdd4f254118154cfcc16a1654298102f04ace731"
+    },
+    {
+      "path": "src/interfaces",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "857c29c4b431efc12d4af5882aa057a766c15512",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/857c29c4b431efc12d4af5882aa057a766c15512"
+    },
+    {
+      "path": "src/interfaces/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/main",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "973de8690a1b3cd415e970a77c37df864e8eae98",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/973de8690a1b3cd415e970a77c37df864e8eae98"
+    },
+    {
+      "path": "src/main/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4089d2091f8d3e1c4d4db2b7715cd28e86ef2cfe",
+      "size": 2642,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/4089d2091f8d3e1c4d4db2b7715cd28e86ef2cfe"
+    },
+    {
+      "path": "src/main/initConfig.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e1ca093c211751152a21e02fec22c9ceb98860b",
+      "size": 161,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/0e1ca093c211751152a21e02fec22c9ceb98860b"
+    },
+    {
+      "path": "src/main/tray.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c742b8ef0bcdd8b5d861368344d50b05a82c2d8a",
+      "size": 6595,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/c742b8ef0bcdd8b5d861368344d50b05a82c2d8a"
+    },
+    {
+      "path": "src/main/window.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd0ba2f6fd1cb3f91c25f8a19cb58b04fa220edf",
+      "size": 1103,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/cd0ba2f6fd1cb3f91c25f8a19cb58b04fa220edf"
+    },
+    {
+      "path": "src/preload",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd1dfe45a7a2d4fa35780e3eedb546e2f8e10b44",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/fd1dfe45a7a2d4fa35780e3eedb546e2f8e10b44"
+    },
+    {
+      "path": "src/preload/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f3850d66737d4dfcf8223f0a42266c15a1da74b",
+      "size": 1037,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/7f3850d66737d4dfcf8223f0a42266c15a1da74b"
+    },
+    {
+      "path": "src/renderer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "da4d9aea117dc1ee61798a3368b2068d5a38b673",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/da4d9aea117dc1ee61798a3368b2068d5a38b673"
+    },
+    {
+      "path": "src/renderer/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1d63449f7dd973a651e016c360614b57968fa73",
+      "size": 730,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/b1d63449f7dd973a651e016c360614b57968fa73"
+    },
+    {
+      "path": "src/renderer/public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "583074aa8911749192a39f3b6f79cbb099351b8d",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/583074aa8911749192a39f3b6f79cbb099351b8d"
+    },
+    {
+      "path": "src/renderer/public/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6902e9e4c0308edc5e1ee791650358a5b57ed1c0",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/6902e9e4c0308edc5e1ee791650358a5b57ed1c0"
+    },
+    {
+      "path": "src/renderer/public/scripts/howler.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "425c19cddb43eb4a22fe34c7308cec6754d077e2",
+      "size": 34762,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/425c19cddb43eb4a22fe34c7308cec6754d077e2"
+    },
+    {
+      "path": "src/renderer/public/scripts/live2d.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8915e1d0dfe9e4e6291239c0b1d8aa97d978c0b4",
+      "size": 151453,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/8915e1d0dfe9e4e6291239c0b1d8aa97d978c0b4"
+    },
+    {
+      "path": "src/renderer/public/scripts/live2dcubismcore.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62a6c1410cb10e85a4abfa154e8c06af264416c8",
+      "size": 123263,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/62a6c1410cb10e85a4abfa154e8c06af264416c8"
+    },
+    {
+      "path": "src/renderer/public/scripts/live2dv3.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ade79f6b683ea646fdb25a1975f5fa13b1d8585b",
+      "size": 37237,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/ade79f6b683ea646fdb25a1975f5fa13b1d8585b"
+    },
+    {
+      "path": "src/renderer/public/scripts/pixi.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a63e5341c9b28efcf668b8beb75da212630e2301",
+      "size": 424498,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/a63e5341c9b28efcf668b8beb75da212630e2301"
+    },
+    {
+      "path": "src/renderer/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f56cbb41d18a44a12b5f69760b4a22146d266f3f",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/f56cbb41d18a44a12b5f69760b4a22146d266f3f"
+    },
+    {
+      "path": "src/renderer/src/App.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d20b693dd25b26f5c6c28047756b4ecfaa3aca31",
+      "size": 862,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/d20b693dd25b26f5c6c28047756b4ecfaa3aca31"
+    },
+    {
+      "path": "src/renderer/src/global.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f9479a32be8d3dbdc7aa54cd6cc81b1240d9793",
+      "size": 307,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/7f9479a32be8d3dbdc7aa54cd6cc81b1240d9793"
+    },
+    {
+      "path": "src/renderer/src/main.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cdc05a6f8ad190dca563ec8ff79e618c4bc5849",
+      "size": 297,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/2cdc05a6f8ad190dca563ec8ff79e618c4bc5849"
+    },
+    {
+      "path": "src/renderer/src/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed4fb74b279d73157dcebdb3eb841aa629dac2b0",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/ed4fb74b279d73157dcebdb3eb841aa629dac2b0"
+    },
+    {
+      "path": "src/renderer/src/models/config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9efdec5de90f1db79b8e08a50032c83f64480d67",
+      "size": 1597,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/9efdec5de90f1db79b8e08a50032c83f64480d67"
+    },
+    {
+      "path": "src/renderer/src/models/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b71224b54f3070675e9554c3f662c2e7073b143",
+      "size": 251,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/2b71224b54f3070675e9554c3f662c2e7073b143"
+    },
+    {
+      "path": "src/renderer/src/models/models.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc0e4938e851a1edcd5082945741bf88d78c32c5",
+      "size": 57163,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/cc0e4938e851a1edcd5082945741bf88d78c32c5"
+    },
+    {
+      "path": "src/renderer/src/models/win.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94efce59355db11b6c465cf13b70fe797fd62062",
+      "size": 732,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/94efce59355db11b6c465cf13b70fe797fd62062"
+    },
+    {
+      "path": "src/renderer/src/pages",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ae38ee6186d546133f6b82d718ed369565599662",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/ae38ee6186d546133f6b82d718ed369565599662"
+    },
+    {
+      "path": "src/renderer/src/pages/Model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b52dbde11719b17530dd54ecdae6e40ecdc61438",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/b52dbde11719b17530dd54ecdae6e40ecdc61438"
+    },
+    {
+      "path": "src/renderer/src/pages/Model/Current.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c27780cda9ad429286f830a490a87d3cd097e45",
+      "size": 857,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/9c27780cda9ad429286f830a490a87d3cd097e45"
+    },
+    {
+      "path": "src/renderer/src/pages/Model/Legacy.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8d5c1615bba7b9242bcd1fd0d452958ceb2002b",
+      "size": 770,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/e8d5c1615bba7b9242bcd1fd0d452958ceb2002b"
+    },
+    {
+      "path": "src/renderer/src/pages/Model/Tips.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "797b1495043cae9df7e921ad61c8ebb121de63be",
+      "size": 5134,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/797b1495043cae9df7e921ad61c8ebb121de63be"
+    },
+    {
+      "path": "src/renderer/src/pages/Model/Toolbar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53ea1ebd7c736654e37d365852b76bbbc129370b",
+      "size": 2632,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/53ea1ebd7c736654e37d365852b76bbbc129370b"
+    },
+    {
+      "path": "src/renderer/src/pages/Model/index.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6c6694b18be0659b9d1d0141369c577f47042d5",
+      "size": 5073,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/a6c6694b18be0659b9d1d0141369c577f47042d5"
+    },
+    {
+      "path": "src/renderer/src/pages/Model/tips",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "39111c6773ab03e0a174d9ed071627b16fb886f1",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/39111c6773ab03e0a174d9ed071627b16fb886f1"
+    },
+    {
+      "path": "src/renderer/src/pages/Model/tips/en.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9aa243e762c7433264d9e41b05bb718ada0610a4",
+      "size": 2524,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/9aa243e762c7433264d9e41b05bb718ada0610a4"
+    },
+    {
+      "path": "src/renderer/src/pages/Model/tips/zh.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ca222e4955af1eab584d05ada3965b996d732d4",
+      "size": 2713,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/4ca222e4955af1eab584d05ada3965b996d732d4"
+    },
+    {
+      "path": "src/renderer/src/pages/Setting",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9519f0b36415c3acbb130f7aa96eecad9d95fc34",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/9519f0b36415c3acbb130f7aa96eecad9d95fc34"
+    },
+    {
+      "path": "src/renderer/src/pages/Setting/index.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eed1d81415536a25262beff7b5865c1b8361fb2e",
+      "size": 1775,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/eed1d81415536a25262beff7b5865c1b8361fb2e"
+    },
+    {
+      "path": "src/renderer/src/store.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61d32b051f6206a56ebaee5a893995262112264b",
+      "size": 888,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/61d32b051f6206a56ebaee5a893995262112264b"
+    },
+    {
+      "path": "src/renderer/src/styles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7cfb99fd00751162216f00398da7e5f5167819da",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/7cfb99fd00751162216f00398da7e5f5167819da"
+    },
+    {
+      "path": "src/renderer/src/styles/GlobalStyles.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08ee53011a71bb8aea11e6209610a5452d7abeaa",
+      "size": 490,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/08ee53011a71bb8aea11e6209610a5452d7abeaa"
+    },
+    {
+      "path": "src/renderer/src/styles/Variables.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06f7d3358efc204797e453d7b90e6e2592049bd6",
+      "size": 608,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/06f7d3358efc204797e453d7b90e6e2592049bd6"
+    },
+    {
+      "path": "src/renderer/src/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9c586b7c3635aac6bb0d5106ea803a72b133b2fa",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/9c586b7c3635aac6bb0d5106ea803a72b133b2fa"
+    },
+    {
+      "path": "src/renderer/src/utils/ga.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b61c8f06808686225ad0e035eaf68371590197b",
+      "size": 137,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/2b61c8f06808686225ad0e035eaf68371590197b"
+    },
+    {
+      "path": "src/renderer/src/utils/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8618dfc4f2655c0a38b5f59b5ab65ee6d0ca2335",
+      "size": 233,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/8618dfc4f2655c0a38b5f59b5ab65ee6d0ca2335"
+    },
+    {
+      "path": "src/renderer/src/vite-env.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11f02fe2a0061d6e6e1f271b21da95423b448b32",
+      "size": 38,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/11f02fe2a0061d6e6e1f271b21da95423b448b32"
+    },
+    {
+      "path": "static",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "518eddc972d2467315bf64ea7dad8c9873d644c1",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/518eddc972d2467315bf64ea7dad8c9873d644c1"
+    },
+    {
+      "path": "static/icons",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8a993fd33222c1048dd4918d527948b1e0eee91d",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/8a993fd33222c1048dd4918d527948b1e0eee91d"
+    },
+    {
+      "path": "static/icons/mac",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "646b19ce06cd51342cb4512689fc3f88f136710e",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/646b19ce06cd51342cb4512689fc3f88f136710e"
+    },
+    {
+      "path": "static/icons/mac/icon.icns",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "661671dded280af07a95ff922906a55257bf1cae",
+      "size": 126171,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/661671dded280af07a95ff922906a55257bf1cae"
+    },
+    {
+      "path": "static/icons/png",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "479df5ea807e93e1afb4e463a1cde5d769f231ff",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/479df5ea807e93e1afb4e463a1cde5d769f231ff"
+    },
+    {
+      "path": "static/icons/png/1024x1024.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d6436d16f05dd5d87e10176f1beb2a89d5e41ca",
+      "size": 47126,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/0d6436d16f05dd5d87e10176f1beb2a89d5e41ca"
+    },
+    {
+      "path": "static/icons/png/128x128.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e69982ebe953e872b63fd381b4051e7870a456e",
+      "size": 5516,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/8e69982ebe953e872b63fd381b4051e7870a456e"
+    },
+    {
+      "path": "static/icons/png/16x16.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9de5f1c34c8d3d71df9b9e7ab63586161fd0afd5",
+      "size": 542,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/9de5f1c34c8d3d71df9b9e7ab63586161fd0afd5"
+    },
+    {
+      "path": "static/icons/png/24x24.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cc2e49a35b0d780d59bfed47770a5d552749808",
+      "size": 921,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/9cc2e49a35b0d780d59bfed47770a5d552749808"
+    },
+    {
+      "path": "static/icons/png/256x256.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1033055d40bbcc55263ed67be19f2004af66326",
+      "size": 10784,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/a1033055d40bbcc55263ed67be19f2004af66326"
+    },
+    {
+      "path": "static/icons/png/32x32.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae1f421397ca0625fad63766478f9b49bd090b4c",
+      "size": 1272,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/ae1f421397ca0625fad63766478f9b49bd090b4c"
+    },
+    {
+      "path": "static/icons/png/48x48.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7fd5062fb538cbd1ee579a527b0de105e0c608b",
+      "size": 2081,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/c7fd5062fb538cbd1ee579a527b0de105e0c608b"
+    },
+    {
+      "path": "static/icons/png/512x512.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a39db84a3570391c6dc4a77b1302216f37cee5f",
+      "size": 22547,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/8a39db84a3570391c6dc4a77b1302216f37cee5f"
+    },
+    {
+      "path": "static/icons/png/64x64.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be2463df0d2ce26a34671d495545843ad7e55eba",
+      "size": 2866,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/be2463df0d2ce26a34671d495545843ad7e55eba"
+    },
+    {
+      "path": "static/icons/strip-tray.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eae99086ee0aed43bf9e8b0f175125a22dec6655",
+      "size": 562,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/eae99086ee0aed43bf9e8b0f175125a22dec6655"
+    },
+    {
+      "path": "static/icons/strip-tray@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6481f7de263a611c00656ab2f5c670c24a2706e",
+      "size": 2106,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/e6481f7de263a611c00656ab2f5c670c24a2706e"
+    },
+    {
+      "path": "static/icons/strip-tray@3x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "693ef2b9a8d416924a99f213438f032f9959121f",
+      "size": 1322,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/693ef2b9a8d416924a99f213438f032f9959121f"
+    },
+    {
+      "path": "static/icons/tray.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9de5f1c34c8d3d71df9b9e7ab63586161fd0afd5",
+      "size": 542,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/9de5f1c34c8d3d71df9b9e7ab63586161fd0afd5"
+    },
+    {
+      "path": "static/icons/tray@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae1f421397ca0625fad63766478f9b49bd090b4c",
+      "size": 1272,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/ae1f421397ca0625fad63766478f9b49bd090b4c"
+    },
+    {
+      "path": "static/icons/tray@3x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7fd5062fb538cbd1ee579a527b0de105e0c608b",
+      "size": 2081,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/c7fd5062fb538cbd1ee579a527b0de105e0c608b"
+    },
+    {
+      "path": "static/icons/win",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c3a25fa5f7ce7355edf582c63f6d62addfa7617d",
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/trees/c3a25fa5f7ce7355edf582c63f6d62addfa7617d"
+    },
+    {
+      "path": "static/icons/win/icon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b8e44db24d77aaf332dfa5504ed482bca13f37f",
+      "size": 361102,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/1b8e44db24d77aaf332dfa5504ed482bca13f37f"
+    },
+    {
+      "path": "static/logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df9551c216485e65fc559b1b2ea4a99c950a61bc",
+      "size": 51422,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/df9551c216485e65fc559b1b2ea4a99c950a61bc"
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57460936e7d1429a94ce339fa61ad96c2adf3af5",
+      "size": 357,
+      "url": "https://api.github.com/repos/zenghongtu/PPet/git/blobs/57460936e7d1429a94ce339fa61ad96c2adf3af5"
+    }
+  ],
+  "truncated": false
+}

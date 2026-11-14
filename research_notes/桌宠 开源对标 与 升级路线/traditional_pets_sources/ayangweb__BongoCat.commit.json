@@ -1,0 +1,82 @@
+{
+  "sha": "47a73ed1765b13fdd674ec356d51b5b16a6b5a5b",
+  "node_id": "C_kwDOOQCN5toAKDQ3YTczZWQxNzY1YjEzZmRkNjc0ZWMzNTZkNTFiNWIxNmE2YjVhNWI",
+  "commit": {
+    "author": {
+      "name": "ayangweb",
+      "email": "473033518@qq.com",
+      "date": "2026-10-28T00:12:57Z"
+    },
+    "committer": {
+      "name": "ayangweb",
+      "email": "473033518@qq.com",
+      "date": "2026-10-28T00:12:57Z"
+    },
+    "message": "chore: release v2.4.1",
+    "tree": {
+      "sha": "95dabf6d485b8152bba13b4e105c688509587841",
+      "url": "https://api.github.com/repos/ayangweb/BongoCat/git/trees/95dabf6d485b8152bba13b4e105c688509587841"
+    },
+    "url": "https://api.github.com/repos/ayangweb/BongoCat/git/commits/47a73ed1765b13fdd674ec356d51b5b16a6b5a5b",
+    "comment_count": 1,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCAAdFiEE4cxrijVEjsw66RI5zqizvFVOY88FAmrhPgkACgkQzqizvFVO\nY8903Q//XG5hRPGYKlsAtd1onEQfx7ZRVzqwSU+okLG0eSp9v32X1eL9NzQ0R8VA\nuF/nXdX6+eRmjUWx3OfMvlaGLASnaXYF/bc8Bz7WOaYfnnE70lFtR9kYRSWPAm9q\n7ik97MlYkIJKL1lvKVm535hSL2b9FEh5ywzwiOpSQF16lMRQXc17sP062jQlciLR\nsxeoTy1lBxFtUWdm/3qmQDnBEYXAucQlpOtcvZHCwVjDn6vo9dgjDwK+QWVkJxye\nZ51sZpE3NkF6TElt9gufz+4sc++CbkidBIec864CbasHkmZg0lZAwr6CeYrSCxS8\nOZBgJmOKH+LCohbiHTGTGtP1spDpChfjRtQIzSxU+I7+LZu6PA63CJMdGkOAj6II\ngrgoVFe8s7EqxthNPZSFpgI/0JhRMzfKaJR0zjwdwavSPh1ATNZX4GJPLYGCHcSs\nYiKJGnAQ+2sh/nVl24BWwrfVQUYkrAZ5fmiZVazpSwQBonczI5uoqNZv7Qf2iiSd\nEmnsFbupklMQATpcGQWbM7CFbn/Nvp3uzqtgmuMYoTXQLc5qJnovGfDsSr6kSfGa\nJybP3s9a4bMFb3IzKKHFUmsYFFF6vdTwA2zi4HNXceHe0cdFbOcj0Tj9dtjY9byy\n64yrhcRhcNnUCcEzON7EadG3H/l98TcxWOoAIlY3X9u0P7DF5Cw=\n=GwQv\n-----END PGP SIGNATURE-----",
+      "payload": "tree 95dabf6d485b8152bba13b4e105c688509587841\nparent 227a421014ec82e415ac704a375b4694df146c60\nauthor ayangweb <473033518@qq.com> 1793146377 +0800\ncommitter ayangweb <473033518@qq.com> 1793146377 +0800\n\nchore: release v2.4.1\n",
+      "verified_at": "2026-10-28T00:13:06Z"
+    }
+  },
+  "url": "https://api.github.com/repos/ayangweb/BongoCat/commits/47a73ed1765b13fdd674ec356d51b5b16a6b5a5b",
+  "html_url": "https://github.com/ayangweb/BongoCat/commit/47a73ed1765b13fdd674ec356d51b5b16a6b5a5b",
+  "comments_url": "https://api.github.com/repos/ayangweb/BongoCat/commits/47a73ed1765b13fdd674ec356d51b5b16a6b5a5b/comments",
+  "author": {
+    "login": "ayangweb",
+    "id": 75017711,
+    "node_id": "MDQ6VXNlcjc1MDE3NzEx",
+    "avatar_url": "https://avatars.githubusercontent.com/u/75017711?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ayangweb",
+    "html_url": "https://github.com/ayangweb",
+    "followers_url": "https://api.github.com/users/ayangweb/followers",
+    "following_url": "https://api.github.com/users/ayangweb/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ayangweb/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ayangweb/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ayangweb/subscriptions",
+    "organizations_url": "https://api.github.com/users/ayangweb/orgs",
+    "repos_url": "https://api.github.com/users/ayangweb/repos",
+    "events_url": "https://api.github.com/users/ayangweb/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ayangweb/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "ayangweb",
+    "id": 75017711,
+    "node_id": "MDQ6VXNlcjc1MDE3NzEx",
+    "avatar_url": "https://avatars.githubusercontent.com/u/75017711?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ayangweb",
+    "html_url": "https://github.com/ayangweb",
+    "followers_url": "https://api.github.com/users/ayangweb/followers",
+    "following_url": "https://api.github.com/users/ayangweb/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ayangweb/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ayangweb/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ayangweb/subscriptions",
+    "organizations_url": "https://api.github.com/users/ayangweb/orgs",
+    "repos_url": "https://api.github.com/users/ayangweb/repos",
+    "events_url": "https://api.github.com/users/ayangweb/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ayangweb/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "227a421014ec82e415ac704a375b4694df146c60",
+      "url": "https://api.github.com/repos/ayangweb/BongoCat/commits/227a421014ec82e415ac704a375b4694df146c60",
+      "html_url": "https://github.com/ayangweb/BongoCat/commit/227a421014ec82e415ac704a375b4694df146c60"
+    }
+  ]
+}

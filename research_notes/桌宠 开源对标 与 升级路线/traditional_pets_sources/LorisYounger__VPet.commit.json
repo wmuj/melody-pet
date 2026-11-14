@@ -1,0 +1,82 @@
+{
+  "sha": "c26be33d730ea5547711f6cc9781cf94e4d6ac7d",
+  "node_id": "C_kwDOIm3UVNoAKGMyNmJlMzNkNzMwZWE1NTQ3NzExZjZjYzk3ODFjZjk0ZTRkNmFjN2Q",
+  "commit": {
+    "author": {
+      "name": "ZouJin",
+      "email": "zoujin.dev@exlb.org",
+      "date": "2026-11-07T18:28:02Z"
+    },
+    "committer": {
+      "name": "ZouJin",
+      "email": "zoujin.dev@exlb.org",
+      "date": "2026-11-07T18:28:02Z"
+    },
+    "message": "支持出售物品",
+    "tree": {
+      "sha": "7d712b62fe065514de5d209e0571e5282989b030",
+      "url": "https://api.github.com/repos/LorisYounger/VPet/git/trees/7d712b62fe065514de5d209e0571e5282989b030"
+    },
+    "url": "https://api.github.com/repos/LorisYounger/VPet/git/commits/c26be33d730ea5547711f6cc9781cf94e4d6ac7d",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/LorisYounger/VPet/commits/c26be33d730ea5547711f6cc9781cf94e4d6ac7d",
+  "html_url": "https://github.com/LorisYounger/VPet/commit/c26be33d730ea5547711f6cc9781cf94e4d6ac7d",
+  "comments_url": "https://api.github.com/repos/LorisYounger/VPet/commits/c26be33d730ea5547711f6cc9781cf94e4d6ac7d/comments",
+  "author": {
+    "login": "LorisYounger",
+    "id": 34806646,
+    "node_id": "MDQ6VXNlcjM0ODA2NjQ2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/34806646?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/LorisYounger",
+    "html_url": "https://github.com/LorisYounger",
+    "followers_url": "https://api.github.com/users/LorisYounger/followers",
+    "following_url": "https://api.github.com/users/LorisYounger/following{/other_user}",
+    "gists_url": "https://api.github.com/users/LorisYounger/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/LorisYounger/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/LorisYounger/subscriptions",
+    "organizations_url": "https://api.github.com/users/LorisYounger/orgs",
+    "repos_url": "https://api.github.com/users/LorisYounger/repos",
+    "events_url": "https://api.github.com/users/LorisYounger/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/LorisYounger/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "LorisYounger",
+    "id": 34806646,
+    "node_id": "MDQ6VXNlcjM0ODA2NjQ2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/34806646?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/LorisYounger",
+    "html_url": "https://github.com/LorisYounger",
+    "followers_url": "https://api.github.com/users/LorisYounger/followers",
+    "following_url": "https://api.github.com/users/LorisYounger/following{/other_user}",
+    "gists_url": "https://api.github.com/users/LorisYounger/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/LorisYounger/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/LorisYounger/subscriptions",
+    "organizations_url": "https://api.github.com/users/LorisYounger/orgs",
+    "repos_url": "https://api.github.com/users/LorisYounger/repos",
+    "events_url": "https://api.github.com/users/LorisYounger/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/LorisYounger/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "5f2042568780550d6f93c4bf27a148bf93790210",
+      "url": "https://api.github.com/repos/LorisYounger/VPet/commits/5f2042568780550d6f93c4bf27a148bf93790210",
+      "html_url": "https://github.com/LorisYounger/VPet/commit/5f2042568780550d6f93c4bf27a148bf93790210"
+    }
+  ]
+}
