@@ -1,6 +1,22 @@
 # 🐾 泡泡桌面伙伴 · MelodyPet (奶油手账风桌面养成版)
 
+[![Release](https://img.shields.io/github/v/release/wmuj/melody-pet?color=e56d44&label=%E5%85%8D%E5%AE%89%E8%A3%85%E4%BE%BF%E6%90%BA%E7%89%88%E4%B8%8B%E8%BD%BD)](https://github.com/wmuj/melody-pet/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-f59e0b.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-3b82f6.svg)](https://github.com/wmuj/melody-pet/releases/latest)
+
 一款温暖治愈的 **Windows 音乐陪伴与虚拟宠物养成桌宠**。内置 **24 款动态萌宠**（6 款内置伙伴 + 18 款来自 Codex Pets 的 V2 11 动作全图集萌宠），支持 **甜品投喂、衣橱换装、桌面小窝与微缩房间布置、石头剪刀布与盲盒扭蛋、专注番茄钟、系统音频实时踩点律动、同步歌词气泡、本地中文语音回应** 与 **陪伴纪念章手账墙**。
+
+> 📦 **免安装绿色版直接下载**：前往 [**GitHub Releases 页面**](https://github.com/wmuj/melody-pet/releases/latest) 下载 `MelodyPet-v1.5.0-win-x64-Portable.zip`，解压后双击 `泡泡桌面伙伴.exe` 即可直接运行（无需安装 Node.js 环境）。
+
+---
+
+## 📸 界面与玩法预览
+
+| 🍰 温馨养成小窝 · 甜品投喂与陪玩 | 🎀 换装衣橱 · 14 件配饰与微缩房间 |
+| :---: | :---: |
+| ![温馨养成小窝](docs/screenshots/01-care-snacks.png) | ![换装衣橱](docs/screenshots/02-care-outfits.png) |
+| **🐾 24 款全动作萌宠画廊（6 内置 + 18 Codex V2）** | **🏅 相处日记 · 陪伴纪念章手账墙** |
+| ![24款萌宠画廊](docs/screenshots/03-pets-gallery.png) | ![陪伴纪念章手账墙](docs/screenshots/04-journal-badges.png) |
 
 ---
 
